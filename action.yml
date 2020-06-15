@@ -12,11 +12,9 @@ inputs:
   data:
     description: 'Who to greet'
     default: 'json'
-    
 runs:
   using: 'docker'
   image: 'Dockerfile'
-
 branding:
   icon: 'terminal'
   color: 'gray-dark'
