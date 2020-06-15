@@ -1,4 +1,4 @@
-FROM ubuntu:bionic
+FROM alpine:3.12
 
 LABEL "name"="bash"
 LABEL "repository"="https://github.com/distributhor/workflow-webhook"
